@@ -3,11 +3,8 @@ from bs4 import BeautifulSoup
 import smtplib
 import time 
 
-URL = "https://www.amazon.com/dp/B07R3HYDVW/ref=sspa_dk_detail_2?psc=1&pd_rd_i=B07R3HYDVW&pd_rd_w=fK0yx&pf_rd_p=c83c55b0-5d97-454a-a592-a891098a9709&pd_rd_wg=bEJlN&pf_rd_r=RP83G0QJ3MCE5TJYYB9V&pd_rd_r=16e28d4b-1b27-4be9-ad77-46bda62b0272&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFNSFdUNjJKWFpRVVgmZW5jcnlwdGVkSWQ9QTAxNjIyMjQzVDQ5TFdJUFdRVkpWJmVuY3J5cHRlZEFkSWQ9QTAzNDczMjJBRFo1TkVQNDJPWkYmd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWMmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
 
 
-
-    
 def check_price():
     
     header1 = input("Please enter your User-Agent.")
